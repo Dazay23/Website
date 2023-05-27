@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+body{
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.logo{
+    font-family: 'Archivo Black';
+    font-size: 3em;
+    color: white;
+    opacity: 0.5;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: underline 7px;
+}
+
+.navbar ul > li {
+    font-size: 30px;
+    list-style: none;
+    align-items: flex-end;
+    margin: 35px 30px;
+    float: right;
+
+    
+}
+
+.navbar a{
+    font-family: 'Archivo Black';
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.navbar a:hover{
+    color: gray;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+.middle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    background-color: transparent;
+    text-shadow: 0 0 20px red;
+}
+
+
+.title{
+    font-family: 'Montserrat';
+    font-size: 50px;
+    Color: black;
+    margin: -20px;
+}
+
+.job{
+    font-family: 'Montserrat';
+    opacity: 0.5;
+}
+
+.text {
+    font-family: 'Noto Sans';
+    color: white;
+    font-size: 23px;
+    font-weight: bolder;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+.buttons a{
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 30px;
+    text-decoration: none;
+    text-shadow: none;
+    color: white;
+
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px 20px;
+
+    background-color: crimson;
+    transition: 0.3s;
+
+}
+
+.buttons a:hover{
+    background: black;
+    color: white;
+    box-shadow: 0 0 25px red;
+}
+
+
+
+
+
+
+
